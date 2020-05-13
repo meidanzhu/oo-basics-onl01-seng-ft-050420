@@ -10,8 +10,8 @@ class shoe
     @color
   end
 
-  def size
-    @size
+  def size=(num)
+    @size = num
   end
 
   def material

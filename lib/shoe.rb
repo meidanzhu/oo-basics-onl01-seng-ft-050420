@@ -7,15 +7,15 @@ class shoe
   end
 
   def color
-    @color
+    @color = color
   end
 
-  def size=(num)
-    @size = num
+  def size
+    @size = size
   end
 
   def material
-    @material
+    @material = material
   end
 
   def cobble

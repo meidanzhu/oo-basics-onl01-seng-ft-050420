@@ -18,6 +18,9 @@ class shoe
     @material = material
   end
 
+  def condition
+    @condition = condition
+
   def cobble
     puts "Your shoe is as good as new!"
     @condition= "new"

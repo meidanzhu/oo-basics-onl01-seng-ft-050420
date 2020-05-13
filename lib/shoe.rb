@@ -3,7 +3,7 @@ class shoe
 
   def initialize(brand, color, size, material, condition)
     @brand = brand
-  end
+
 
   def color
     @color = color
